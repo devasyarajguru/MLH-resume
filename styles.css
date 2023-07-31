@@ -61,20 +61,7 @@ body {
   .section h2 {
     font-size: 30px;
   }
-  
-  
-  /* Style links to make them stand out */
-  a {
-    color: #265a8f; /* Color 2 - Blue */
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Add any additional CSS styling you desire to enhance the theme */
-  
+    
 
 .bio-description
 {
@@ -94,18 +81,63 @@ body {
     color:#ffffff;
 }
 
-.line {
-    width: 100%;
-    height: 2px;
-    background-color: black;
-}
-
 .section.about-me h2
 {
     text-align: center;
 }
 
-.section.section.about-me
+.section.about-me
 {
     padding: 10px;
+}
+
+.section.about-me ul li
+{
+    padding: 10px;
+}
+
+
+.section.technical h2
+{
+    text-align: center;
+}
+
+.section.technical
+{
+  background-color: #353535;
+  color: #f7f9f9;
+    padding: 10px;
+}
+
+.section.technical ul li
+{
+ padding: 5px;
+}
+
+.ed-1 , .ed-2
+{
+  margin-bottom: -10px;
+}
+
+.section.project h2
+{
+    text-align: center;
+}
+
+.section.project
+{
+  color: #353535;
+    padding: 10px;
+}
+
+.section.project h3
+{
+  margin-left: 15px;
+}
+
+.mta
+{
+  text-decoration: none;
+  
+  color: black;
 }
